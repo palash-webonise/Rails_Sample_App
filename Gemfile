@@ -5,10 +5,13 @@ ruby '2.0.0'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.8'
 
+<<<<<<< HEAD
 gem 'bootstrap-sass', '2.3.2.0'
 
 gem 'sprockets', '2.11.0'
 
+=======
+>>>>>>> 280956aa7895972dba1668035052267a74ee4a32
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3','1.3.8'
 
@@ -39,6 +42,10 @@ group :doc do
 end
 
 group :production do
+<<<<<<< HEAD
+=======
+  gem 'pg', '0.15.1'
+>>>>>>> 280956aa7895972dba1668035052267a74ee4a32
   gem 'rails_12factor', '0.0.2'
 end
 
